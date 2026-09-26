@@ -36,8 +36,19 @@ const bigNumber = 2353776383837394475n ;
 //Objects
 //Functions
 
-const heroes = ["shaktiman", "naagraj", "doga"]
-{
-    name: "hitesh",
+const heroes = ["shaktiman", "naagraj", "doga"];
+let myObj = {
+    name: "Ashu",
     age: 24,
 }
+
+
+const myFunction = function(){
+    console.log("Hello World");
+    
+}
+
+//to find the datatype we use a built in function i.e. typeof
+console.log(typeof(myFunction));
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
